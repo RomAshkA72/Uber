@@ -1,0 +1,83 @@
+$blue_color: #1eacc7
+
+header
+    position: relative
+    height: 50px
+
+nav
+    position: fixed
+    width: 100%
+    height: 50px
+    z-index: 5
+    background-color: #212121
+
+.menu
+    display: flex
+    justify-content: space-between
+    padding: 13px 70px
+    margin: 0
+    list-style-type: none
+    &_link
+        color: #ffffff
+        font-size: 15px
+        font-weight: 300
+        &:hover
+            text-decoration: none
+            color: #1eacc7
+    &_item
+        border-right: 2px dotted black
+        padding-right: 28px
+        &:last-child
+            border-right: none
+
+.hamburger
+    display: none
+
+.subheader
+    top: 50px
+    position: absolute
+    width: 100%
+    height: 84px
+    background-color: rgba(0,0,0, .6)
+    &_logo
+        display: block
+        max-width: 100%
+        margin-top: 16px
+    &_official
+        margin-top: 6px
+        opacity: 0.5
+        color: #ffffff
+        font-size: 13px
+        font-weight: 400
+    &_call
+        color: #ffffff
+        font-size: 12px
+        font-weight: 300
+        margin-top: 19px
+        text-align: right
+    &_tel
+        display: block
+        margin-top: 8px
+        color: #ffffff
+        font-size: 22px
+        font-weight: 400
+        text-transform: uppercase
+        text-align: right
+        line-height: 12px
+    &_btn
+        margin-top: 19px
+        width: 172px
+        height: 46px
+        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+        border: none
+        border-radius: 4px
+        background-image: linear-gradient(to top, $blue_color 0%, $blue_color 100%)
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+        color: #ffffff
+        font-size: 14px
+        font-weight: 400
+        text-transform: uppercase
+
+.xs-visible
+    display: none
+

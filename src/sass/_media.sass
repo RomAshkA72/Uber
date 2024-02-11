@@ -1,0 +1,310 @@
+@media ( max-width:  1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_h1
+            font-size: 50px
+    .advantages
+        &_cart
+            align-items: flex-start
+            &_text
+                width: 300px
+    .possibilities
+        &_card
+            width: 300px
+    .footer
+        &_references
+            margin: 27px 0 20px 0
+            &_line1
+                gap: 18px
+            &_line2
+                margin-top: 20px
+                flex-wrap: wrap
+                gap: 10px
+        &_app
+            width: 270px
+
+@media ( max-width:  991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_tel
+            font-size: 18px
+        &_btn
+            width: 100%
+            margin-top: 21px
+            height: 40px
+
+    .promo
+        &_h1
+            font-size: 39px
+        &_h2
+            font-size: 31px
+
+    .possibilities
+        &_card
+            width: 300px
+
+    .advantages
+        &_cart
+            flex-direction: column
+            align-items: center
+            &_text
+                margin-top: 20px
+
+    .possibilities
+        &_card
+            width: 220px
+
+    .choice
+        &_wrapper
+            position: relative
+        &_auto
+            position: absolute
+            right: 3px
+            width: 100%
+        &_desc
+            position: absolute
+            width: 100%
+            top: 650px
+
+    .footer
+        &_references
+            &_line1
+                &_item
+                    font-size: 10px
+            &_line2
+                margin-top: 10px
+
+
+@media ( max-width:  767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            margin-bottom: 2px
+            background-color: white
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_tel
+            display:block
+            margin-top: 10px
+            color: rgb(255, 255, 255)
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+
+    .promo
+        &_h1
+            font-size: 34px
+        &_text
+            font-size: 16px
+
+    .advantages
+        .title
+            font-size: 24px
+
+    .possibilities
+        .title
+            font-size: 24px
+        .subtitle
+            font-size: 15px
+
+    .possibilities
+        &_card
+            width: 234px
+
+    .choice
+        &_text
+            .title
+                font-size: 35px
+        &_desc
+            top: 600px
+
+@media (max-width:  575px)
+    .subheader
+        height: 62px
+        &_official
+            display: none
+        &_btn
+            width: 110px
+            height: 22px
+            color: rgb(255, 255, 255)
+            font-size: 10px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+
+    .promo
+        min-height: 400px
+        padding: 117px 0 35px 0
+        &_text
+            display: none
+        &_h1
+            font-size: 30px
+        &_h2
+            font-size: 18px
+        &_btn
+            margin: 72px auto 0 auto
+
+    .advantages
+        .title
+            font-size: 15px
+        &_cart
+            &_circle
+                margin-right: 0
+
+    .menu
+        width: 85%
+        &_item
+            width: 100%
+            text-align: center
+        &_link
+            display: block
+
+    .possibilities
+        .title
+            font-size: 17px
+        &_card
+            width: 290px
+            margin: 0 auto 19px auto
+
+    .choice
+        min-height: 400px
+        &_text
+            margin-top: 25px
+        .sub_bg
+            height: 400px
+        .title
+            display: none
+        .subtitle
+            display: none
+        &_auto
+            margin-top: 34px
+        &_desc
+            top: 285px
+            right: 1px
+            color: white
+
+    .terms
+        padding: 22px 0 30px 0
+        .title
+            font-size: 16px
+        &_block
+            margin-top: 30px
+            margin-bottom: 0
+            &_hedline
+                font-size: 16px
+            &_list
+                li
+                    font-size: 14px
+            &_text
+                font-size: 14px
+
+    .world
+        min-height: 360px
+        padding: 24px 0 29px 0
+        .label
+            width: 75px
+        .choice_text
+            margin-top: 16px
+            .title
+                margin-top: 14px
+                font-size: 16px
+            .subtitle
+                font-size: 14px
+        &_link
+            position: absolute
+            font-size: 14px
+            left: 43%
+            transform: translateX(-36%)
+
+    .footer
+        padding: 30px 23px
+        .footer_line
+            width: 255px
+        &_block
+            flex-direction: column
+            align-items: center
+            #media
+                order: 2
+            #references
+                order: 1
+            #app
+                order: 3
+        .footer_block > div
+            width: 100%
+        &_media
+            justify-content: center
+            margin: 17px 0 0 0
+        &_references
+            margin: 21px 0 0 0
+            &_line1
+                &_item
+                    font-size: 13px
+            &_line2
+                margin-top: 11px
+        &_app
+            margin: 19px auto 0 auto
+
+
